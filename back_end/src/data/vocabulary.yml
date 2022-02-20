@@ -1,0 +1,691 @@
+---
+day1:
+  - n: 1
+    name: 'resume'
+    explanation:
+      n: '履歷表'
+
+  - n: 2
+    name: 'opening'
+    explanation:
+      n: '空缺、職缺；開張、開始'
+    synonyms:
+      - vacancy: '空缺、職缺'
+    point:
+      - an opening: '空缺(可數名詞)，要加定冠詞或用複數形 openings'
+
+  - n: 3
+    name: 'applicant'
+    explanation:
+      n: '申請者、應徵者'
+    derivative:
+      - name: 'apply'
+        explanation:
+          v: '申請、適用'
+      - name: 'application'
+        explanation:
+          n: '申請、申請書、適用'
+      - name: 'appliance'
+        explanation:
+          n: '器具、電器'
+    point:
+      - complete/submit/receive + an application: '主要和前面動詞一起使用'
+      - 亦混淆單字: '區分人物名詞 applicant 和抽象名詞 application。不要和字根相同，但意思完全不同的 appliance(電器)搞混'
+
+  - n: 4
+    name: 'requirement'
+    explanation:
+      n: '必要條件'
+    synonyms:
+      - prerequisite: '必要條件'
+    derivative:
+      - name: 'require'
+        explanation:
+          v: '要求'
+    point:
+      - a requirement + of/for: '...的必要條件'
+      - 常考語句: '經常和介系詞 of 或 for 搭配'
+
+  - n: 5
+    name: 'meet'
+    explanation:
+      v: '滿除、符合(要求、條件等)'
+    synonyms:
+      - satisfy: '滿足(要求、條件)'
+      - fulfill: '滿足(要求、條件)'
+    point:
+      - meet one's needs: '滿足...的需求'
+      - meet requirement: '符合必要條件'
+      - meet customer demand: '滿足顧客需求'
+      - meet expectations: '符合期待'
+      - 常考語句: '除了熟知的『見面』，常以『滿足、符合』的意義出題'
+
+  - n: 6
+    name: 'qualified'
+    explanation:
+      adj: '有資格的、勝任的'
+    synonyms:
+      - certified: '有保證的、經證明的'
+    derivative:
+      - name: 'qualify'
+        explanation:
+          v: '使...有資格'
+      - name: 'qualification'
+        explanation:
+          n: '資格'
+      - name: 'qualifier'
+        explanation:
+          n: '預賽、通過預賽者'
+    point:
+      - be qualified for: '有...的資格'
+      - qualifications for: '...的資格'
+      - 常考語句: '經常和 for 一起使用'
+
+  - n: 7
+    name: 'candidate'
+    explanation:
+      n: '候選者、應徵者'
+    synonyms:
+      - applicant: '應徵者'
+
+  - n: 8
+    name: 'confidence'
+    explanation:
+      n: '信心、自信；信任'
+    derivative:
+      - name: 'confident'
+        explanation:
+          adj: '有信心的、有自信的'
+    point:
+      - show/express + confidence in: '表現對...的信心'
+      - confidence in: '對...的信心'
+      - in confidence: '秘密地'
+      - 常考語句: 'confidence 經常和 show, express 等表達情感動詞及介系詞 in 搭配。隨 in 位置不同，意思不同'
+
+  - n: 9
+    name: 'highly'
+    explanation:
+      adv: '很、非常'
+    point:
+      - highly + competent/recommended/qualified/competitive/profitable: '非常有能力的/推薦的/有資格的/競爭的/有利益的 highly 和 very, most 一樣是強調副詞'
+
+  - n: 10
+    name: 'professional'
+    explanation:
+      adj: '專業的、職業的'
+      n: '專家'
+    derivative:
+      - name: 'profession'
+        explanation:
+          n: '職業'
+      - name: 'professionally'
+        explanation:
+          adv: '專業地、職業地'
+
+  - n: 11
+    name: 'interview'
+    explanation:
+      n: '面試'
+      v: '面試'
+
+  - n: 12
+    name: 'hire'
+    explanation:
+      v: '僱用'
+
+  - n: 13
+    name: 'training'
+    explanation:
+      n: '訓練'
+
+  - n: 14
+    name: 'reference'
+    explanation:
+      n: '推薦信；參考'
+    derivative:
+      - name: 'refer'
+        explanation:
+          n: '訓練'
+          v: '參照'
+
+  - n: 15
+    name: 'position'
+    explanation:
+      n: '職位；位置'
+      v: '放置'
+    point:
+      - accept a position: '接受職位'
+      - apply for a position: '應徵職位'
+      - 常考語句: '會和表示應徵、接受的動詞一起使用'
+
+  - n: 16
+    name: 'achievement'
+    explanation:
+      n: '成就、達成'
+    point:
+      - achievement: '成就、達成'
+      - achiever: '有成就的人'
+      - 易混淆單字: '抽象名詞 achievement 和人物名詞 achiever'
+
+  - n: 17
+    name: 'impressed'
+    explanation:
+      adj : '感到印象深刻的'
+    point:
+      - impressed: 感到印象深刻的
+      - impressize: 令人印象深刻的
+      - 易混淆單字: 'impressed 用來說明人的情感。impressive 則次說明引起情感的人事物'
+
+  - n: 18
+    name: 'excellent'
+    explanation:
+      adj: '優秀的、傑出的'
+
+  - n: 19
+    name: 'eligible'
+    explanation:
+      adj: '有資格的合適的'
+    point:
+      - be eligible for + membership/compensation/position: '有資格成為會員/得到補償/得到職位'
+      - be eligible to do: '有資格做...'
+      - 常考語句: '主要與介系詞 for 或 to 不定詞連用。for 會接表示待遇或職位的名詞'
+      - 易混淆單字: 'eligible: 表示某人符合特定條件而擁有資格。allowed: 被允許的。表示特定行為是被允許的'
+
+  - n: 20
+    name: 'identify'
+    explanation:
+      v: '辨認、認出'
+    derivative:
+      - name: 'identification'
+        explanation:
+          n: '識別、身分證明'
+  - n: 21
+    name: 'associate'
+    explanation:
+      adj: '副的'
+      n: '同事'
+      v: '使有關聯'
+    derivative:
+      - name: 'association'
+        explanation:
+          n: '協會;聯合'
+    point:
+      be associated with: '和...有關聯'
+      in association with: '和...聯合'
+      說明: '主要和介系詞 with 連用'
+
+  - n: 22
+    name: 'condition'
+    explanation:
+      n: '條件'
+
+  - n: 23
+    name: 'employment'
+    explanation:
+      n: '僱用'
+    antonym:
+      - unemployment: '失業'
+    derivative:
+      - name: 'employ'
+        explanation:
+          v: '僱用'
+        synonyms:
+          - 'hire'
+        antonym:
+          - 'lay off'
+          - 'dismiss'
+          - 'fire'
+      - name: 'employee'
+        explanation:
+          n: '員工'
+      - name: 'employer'
+        explanation:
+          n: '雇主'
+
+  - n: 24
+    name: 'lack'
+    explanation:
+      v: '缺乏'
+      n: '缺乏'
+
+  - n: 25
+    name: 'managerial'
+    explanation:
+      adj: '管理的'
+    synonyms:
+      - supervisory: '管理的、監督的'
+    derivative:
+      - name: 'manage'
+        explanation:
+          v: '經營、管理'
+    point:
+      - managerial staff/experience: '管理人員、經營團隊/管理經驗'
+      - 常考語句: '經常和 staff 及 experience 搭配出題'
+
+  - n: 26
+    name: 'diligent'
+    explanation:
+      adj: '勤奮的'
+    derivative:
+      - name: 'diligence'
+        explanation:
+          n: '勤勉'
+      - name: 'diligently'
+        explanation:
+          adv: '勤勉地、勤奮地'
+
+  - n: 27
+    name: 'familiar'
+    explanation:
+      adj: '熟悉的、親近的'
+    antonym:
+      - unfamiliar: '不熟悉的、陌生的'
+    derivative:
+      - name: 'familiarize'
+        explanation:
+          v: '使熟悉'
+    point:
+      - be familiar with: '對...熟悉'
+      - 常考語句: '經常和介系詞 with 搭配'
+
+  - n: 28
+    name: 'proficiency'
+    explanation:
+      n: '熟悉'
+    derivative:
+      - name: 'proficient'
+        explanation:
+          adj: '熟練的、精通的'
+
+  - n: 29
+    name: 'prospective'
+    explanation:
+      adj: '預期的、未來的'
+    derivative:
+      - name: 'prospect'
+        explanation:
+          n: '展望、預期'
+
+  - n: 30
+    name: 'appeal'
+    explanation:
+      v: '呼籲、有吸引力'
+    synonyms:
+      - attract: '吸引'
+    point:
+      - appeal to + N. : '向...呼籲、對...有吸引力。'
+      - 文法: 'appeal 是不及物動詞，經常和介系詞 to 連用。'
+      - 同義詞: '表示引起某人的興趣或注意時，appeal to 可換成 attract'
+
+  - n: 31
+    name: 'specialize'
+    explanation:
+      v: '專攻、專門從事'
+
+  - n: 32
+    name: 'apprehensive'
+    explanation:
+      adj: '擔心的、憂慮的'
+
+  - n: 33
+    name: 'consultant'
+    explanation:
+      n: '顧問'
+
+  - n: 34
+    name: 'entitle'
+    explanation:
+      v: '給...權利'
+    point:
+      - be entitled to + N.: '有得到...的權利'
+      - be entitled to do: '有做...的權利'
+
+  - n: 35
+    name: 'degree'
+    explanation:
+      n: '學位'
+
+  - n: 36
+    name: 'payroll'
+    explanation:
+      n : '薪水帳冊、發新名單'
+    point:
+      - on the payroll: '是某公司的員工。從『名列發新名單中』衍生的用法'
+      - 常考語句: 'Sullivan Printing currently has 22 staff members on the payroll. 
+          Sullivan Printing 公司目前有22名登記在案的員工'
+
+  - n: 37
+    name: 'recruit'
+    explanation:
+      v: '招募(新進人員等)'
+    derivative:
+      - name: 'recruitment'
+        explanation:
+          n: '新進人員招募'
+      - name: 'recruiter'
+        explanation:
+          n: '招募方、招募者'
+
+  - n: 38
+    name: 'certification'
+    explanation:
+      n: '(資格)證明'
+    derivative:
+      - name: 'certify'
+        explanation:
+          v: '證明'
+      - name: 'certified'
+        explanation:
+          adj: '被證明的，有認證的'
+      - name: 'certificate'
+        explanation:
+          n: '證書'
+    point:
+      - prefessional certification: '專業資格證明'
+      - a birth certificate: '出生證明'
+      - 常考語句: 'certification 表示專業能力的資格證明。certificate 可用在資格證明以外，例如 birth certificate'
+
+  - n: 39
+    name: 'occupation'
+    explanation:
+      n: '職業'
+    synonyms:
+      - 'job'
+      - 'vocation'
+    derivative:
+      - name: 'occupy'
+        explanation:
+          v: '佔據(場所、職位等)'
+      - name: 'occupational'
+        explanation:
+          adj: '職業上的'
+      - name: 'occupant'
+        explanation:
+          n: '佔有者、居住者'
+    point:
+      - occupation: '職業'
+      - occupant: '(住宅的)居住者、(土地的)佔有者'
+      - 易混淆單字: '主要疫區分抽象名詞 occupation 和人物名詞 occupant 的形式出題'
+
+  - n: 40
+    name: 'wage'
+    explanation:
+      n: '工資、薪水'
+    point:
+      - wage: '主要表示藍領階級、以時間或月份計算的薪水'
+      - salary: '主要表示白領階級、以整個年度計算的薪水'
+      - compensation: '表示工作以外的報酬、補償(ex. injury compensation 傷害補償)'
+      - 易混淆單字: "wage :: salary :: compensation 這三個『薪水』意義的比較。"
+
+day2:
+  - n: 1
+    name: 'attire'
+    explanation:
+      n: '服裝、衣著'
+
+  - n: 2
+    name: 'code'
+    explanation:
+      n: '規範、慣例；密碼'
+
+  - n: 3
+    name: 'concern'
+    explanation:
+      n: '擔心、憂慮'
+      v: '使...擔心；關係到、影響到'
+    synonyms:
+      - matter: '問題、事情'
+      - worry: '使擔心'
+      - involve: '牽涉到...'
+    derivative:
+      - name: 'concerning'
+        explanation:
+          prep: '關於...'
+      - name: 'concerned'
+        explanation:
+          adj: '擔心的、有關的'
+    point:
+      - concern + about/over: '關於...的憂慮/擔心'
+      - questions concening: '關於...的問題'
+      - 易混淆單字: 'concering 意思和 about, regarding 相同。
+          concern 表示名詞，問題、事情，可以換成 matter；表示動詞，使擔心，可以換成 worry；
+          表示狀況或行動對某人造成影響時，可以換成 involve。'
+
+  - n: 4
+    name: 'policy'
+    explanation:
+      n: '政策、規定；保險單'
+
+  - n: 5
+    name: 'comply'
+    explanation:
+      v: '遵守、遵從'
+    derivative:
+      - name: 'compliance'
+        explanation:
+          n: '遵守'
+    point:
+      - comply with: '遵守。comply 是不及物動詞，要和介系詞 with 搭配'
+      - observe: '遵守；觀察。是及物動詞，可直接接受詞'
+      - obey: '遵從、服從。及物動詞，帶有服從他人的語感'
+      - fulfill: '滿足(條件)。及物動詞，帶有滿足特定條件的語感'
+
+  - n: 6
+    name: 'regulation'
+    explanation:
+      n: '規定'
+    derivative:
+      - name: 'regulate'
+        explanation:
+          v: '管理、控制'
+        synonyms:
+          - 'control'
+    point:
+      - safe regulations: '安全規定'
+      - customs regulations: '海關規定'
+      - 常考語句: '規定通常有許多條，所以用複數形'
+
+  - n: 7
+    name: 'exception'
+    explanation:
+      n: '例外'
+    derivative:
+      - name: 'exceptional'
+        explanation:
+          adj: '例外的、傑出的'
+      - name: 'exceptionally'
+        explanation:
+          adv: '例外地、非常的'
+      - name: 'except'
+        explanation:
+          prep: '除了...之外'
+    point:
+      - with the exception of: '除了...以外'
+      - with very few exceptions: '幾乎沒有例外'
+      - 常考語句: '主要考介系詞 with'
+
+  - n: 8
+    name: 'adhere'
+    explanation:
+      v: '遵守、堅持'
+    point:
+      - adhere to + policies/rules/standards: '遵守政策/規則/標準'
+      - 常考語句: '表示『遵守』的不及物動詞，要接介系詞 to'
+
+  - n: 9
+    name: 'severely'
+    explanation:
+      adv: '嚴格地、嚴重地'
+    synonyms:
+      - sternly: '嚴格地'
+    antonym:
+      - leniently: '寬大地'
+    derivative:
+      - name: 'severe'
+        explanation:
+          adj: '嚴格的、嚴重的'
+
+  - n: 10
+    name: 'refrain'
+    explanation:
+      v: '克制、抑制'
+    synonyms:
+      - refrain: '克制、抑制'
+    antonym:
+      - refrain: '克制、抑制'
+    point:
+      - refrain from: '抑制...、避免做...'
+      - 文法: '不及物動詞接 from'
+
+  - n: 11
+    name: 'permission'
+    explanation:
+      n: '允許、許可'
+    derivative:
+      - name: 'permit'
+        explanation:
+          v: '允許'
+
+  - n: 12
+    name: 'access'
+    explanation:
+      n: '使用權、接近；通道'
+      v: '接近、到達...'
+    derivative:
+      - name: 'accessible'
+        explanation:
+          adj: '可接近的、可利用的'
+      - name: 'accessibility'
+        explanation:
+          n: '易接近性'
+    point:
+      - have access to: '有接近/使用...的權利'
+      - access the documents: '存取文件'
+      - 常考語句: '名詞經常搭配 to ，動詞是及物動詞不接 to'
+      - access: '不可數名詞，不用加冠詞'
+      - approach: '(對學問等的)接近、處理的方法。可使名詞要加 an'
+
+  - n: 13
+    name: 'thoroughly'
+    explanation:
+      adv: '徹底地；完全地、非常'
+    derivative:
+      - name: 'thorough'
+        explanation:
+          adj: '徹底的；完全的'
+
+  - n: 14
+    name: 'revise'
+    explanation:
+      v: '修訂、變更(意見、計畫等)'
+    derivative:
+      - name: 'revision'
+        explanation:
+          n: '修訂、變更'
+
+  - n: 15
+    name: 'approach'
+    explanation:
+      n: '接近方法、處理方法'
+      v: '接近、靠近'
+
+  - n: 16
+    name: 'approval'
+    explanation:
+      n: '批准'
+    synonyms:
+      - permission: '許可、認可'
+    derivative:
+      - name: 'approve'
+        explanation:
+          v: '認可'
+        antonym:
+          - 'reject'
+          - 'turn down'
+    point:
+      - obtain approval (for): '獲得(對於...)的批准'
+      - 常考語句: '主要和動詞 obtain 介系詞後面接受詞'
+
+  - n: 17
+    name: 'form'
+    explanation:
+      n: '種類、類型、形式'
+    derivative:
+      - name: 'formal'
+        explanation:
+          adj: '正式的、形式的'
+      - name: 'formation'
+        explanation:
+          n: '形成'
+    point:
+      - a form of identification: '一種身分證明'
+      - 常考語句: '美國是用駕照等各種 form(形式) 的 identification(身分證明)'
+
+  - n: 18
+    name: 'immediately'
+    explanation:
+      adv: '立即、馬上'
+    derivative:
+      - name: 'immediate'
+        explanation:
+          adj: '立即的'
+    point:
+      - immediately after: '在...之後馬上'
+      - immediately upon arrival: '到達後馬上'
+      - 常考語句: '經常和表示時間的詞語連用'
+
+  - n: 19
+    name: 'inspection'
+    explanation:
+      n: '檢查、視察'
+
+  - n: 20
+    name: 'arrangement'
+    explanation:
+      n: '安排、準備、佈置'
+    derivative:
+      - name: 'arrange'
+        explanation:
+          v: '安排、準備'
+    point:
+      - make arrangements to do: '準備做...的安排'
+      - make arrangements for: '為...做安排'
+      - 常考語句: '經常和 make 連用，注意這時必須用複數形'
+
+  - n: 21
+    name: 'procedure'
+    explanation:
+      n: '手續、程序'
+    derivative:
+      - name: 'proceed'
+        explanation:
+          v: '進展、進行'
+      - name: 'procedural'
+        explanation:
+          adj: '程序上的'
+
+  - n: 22
+    name: 'negative'
+    explanation:
+      adj: '負面的、消極的'
+
+  - n: 23
+    name: 'mandate'
+    explanation:
+      v: '使...成為必須(做)的、授權給...'
+      n: '授權、命令'
+
+  - n: 24
+    name: 'effect'
+    explanation:
+      n: '(法律等的)效力、效果、影響'
+      v: '造成(結果)'
+    derivative:
+      - name: 'effective'
+        explanation:
+          adj: '有效的'
+      - name: 'effectively'
+        explanation:
+          adv: '有效地'
+    point:
+      - : '(法律等的)效力、效果、影響'
