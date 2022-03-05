@@ -9,18 +9,17 @@ function produceData(day) {
     'utf8',
   );
 
-  let vocabulary = YAML.parse(file);
   return shuffle(vocabulary[`day${day}`]);
 }
 
-function hideAnswer(vocabulary) {
-  return vocabulary.map((eachValue) => ({
-    n: eachValue.n,
-    name: eachValue.name,
-  }));
-}
+// function hideAnswer(vocabulary) {
+//   return vocabulary.map((eachValue) => ({
+//     n: eachValue.n,
+//     name: eachValue.name,
+//   }));
+// }
 
 module.exports = {
   produceData,
-  hideAnswer,
+  // hideAnswer,
 }
