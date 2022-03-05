@@ -1,14 +1,9 @@
 const Knex = require('./knex');
 
-function getUser(id) {
-  return Knex('user').select('*').where({'id': id});
-}
-
-function getUserList() {
-  return Knex('user').select('*');
+function getUser(user_id, lesson) {
+  return Knex('user').select('id');
 }
 
 module.exports = {
-  getUserList,
   getUser,
 }

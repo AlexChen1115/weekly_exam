@@ -1,5 +1,19 @@
 const Knex = require('./knex');
 
+function getSort(day, lesson) {
+  return Knex('examination').select('sort', 'lesson')
+    .where('day', day)
+    .andWhere('lesson', lesson);
+}
+
+function insertSort(sort, lesson, day) {
+  return Knex('examination').insert({
+    sort,
+    lesson,
+    day
+  });
+}
+
 function insertAllExamination(row) {
   return Knex.transaction((sql) => {
     return Knex.batchInsert('examination', row, 1000)
@@ -43,4 +57,6 @@ module.exports = {
   putExamScore,
   getChampion,
   getAnswer,
+  getSort,
+  insertSort,
 }

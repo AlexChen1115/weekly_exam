@@ -1,40 +1,38 @@
 const Knex = require('./knex');
 
 function insertTopic(row) {
-  return  Knex('topic').insert(row);
+  return Knex('topic').insert(row);
 }
 
-function getTopic(lesson) {
+function getTopicId(day) {
   return Knex('topic')
-    .count('id', { as: 'count' })
-    .min('id', { as: 'min' })
-    .max('id', { as: 'max' })
-    .where('lesson', lesson);
+    .select('id')
+    .whereIn('day', day);
 }
 
-function getTopicList(lesson) {
-  const sql = Knex('topic').select('id', 'name');
+function getTopicList(day) {
+  return Knex('topic')
+    .select('*')
+    .whereIn('day', day);
 
-  if (lesson) {
-    sql.whereIn('lesson', lesson);
-  }
-
-  return sql;
 }
 
-function getAnswer(lesson) {
-  const sql = Knex('topic').select('explanation');
+function getTopic(day) {
+  return Knex('topic')
+    .select('id', 'name')
+    .whereIn('day', day);
+}
 
-  if (lesson) {
-    sql.whereIn('lesson', Array.isArray(lesson) ? lesson : [lesson]);
-  }
-
-  return sql;
+function getTopicAnswer(day) {
+  return Knex('topic')
+  .select('id', 'explanation')
+  .whereIn('day', day);
 }
 
 module.exports = {
-  getTopic,
+  getTopicId,
   getTopicList,
-  getAnswer,
+  getTopicAnswer,
+  getTopic,
   insertTopic,
 }
